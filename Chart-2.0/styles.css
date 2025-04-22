@@ -1,0 +1,26 @@
+.node:hover{
+    stroke-width: 7px !important;
+    opacity: 1 !important;
+  }
+
+  #my_dataviz {
+    font-family: "Righteous", cursive;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Agrega esto para posicionar correctamente el tooltip */
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .node:hover .tooltip {
+    opacity: 1;
+  }
+  

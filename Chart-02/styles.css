@@ -1,0 +1,8 @@
+.node:hover{
+    stroke-width: 7px !important;
+    opacity: 1 !important;
+  }
+
+  #my_dataviz {
+    font-family: "Righteous", cursive;
+  }
